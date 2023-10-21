@@ -1,0 +1,1 @@
+inputElement.classList.add("textInput");
