@@ -27,9 +27,6 @@ function newBox(amount) {
 function clearBoxes() {
   const boxDiv = document.getElementById("boxes");
   boxDiv.innerHTML = "";
-
-  const input = document.querySelector('input[type="number"]');
-  input.value = "";
 }
 
 const createBtn = document.querySelector("[data-create]");

@@ -12,8 +12,8 @@ function handleSubmit(e) {
     return alert("All fields must be filled in!");
   }
   const userCredentials = {
-    Email: email.value,
-    Password: password.value,
+    email: email.value,
+    password: password.value,
   };
 
   console.log(userCredentials);
